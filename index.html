@@ -4,13 +4,24 @@
     <meta charset="utf-8">
     <title>Gamers United</title>
     <style media="screen">
-    h1 {color:red; font-size:200px;}
-    h2 {color:magenta;}
+      #lol {
+        width: 300px;
+        height: 200px;
+        background: green;
+        animation: mymove 5s infinite;
+      }
+      @keyframes mymove {
+        from {background-color: green;}
+        to {background-color: cyan;}
+      }
+      h1 {color: red; font-size:200px;}
+      h2 {color: magenta;}
+      p {color: blue;}
     </style>
   </head>
   <body>
 
-<h1>Come together comrades</h1>
+<h1>Come together <div id="lol"></div> comrades</h1>
 <p>Shit post website lol</p>
 <h2>Deal with it</h2>
 <p>Skipindabap Bum Dada <img src="boom.jpg" alt="the boom boom" width=60 height=30></p>
