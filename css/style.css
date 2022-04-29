@@ -69,10 +69,12 @@ div {
   border: 5px dashed black;
   background-color: red;
   margin: 20px;
+  text-align: center;
 }
 
 h2 {
   color: magenta;
+  text-align: center;
 }
 
 p {
