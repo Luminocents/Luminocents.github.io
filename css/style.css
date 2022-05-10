@@ -61,15 +61,7 @@
 div {
   background-color: white;
   border: 1px solid #000000;
-}
-
-#headerOne {
-  color: green;
-  font-size: 40px;
-  border: 5px dashed black;
-  background-color: red;
-  margin: 20px;
-  text-align: center;
+  padding: 10px;
 }
 
 h2 {
@@ -86,23 +78,37 @@ p {
   margin: 0 auto;
 }
 
+#content {
+  border: 10px solid black;
+  text-align: center;
+}
+
+#headerOne {
+  display: flex;
+  color: green;
+  font-size: 40px;
+  border: 5px dashed black;
+  background-color: red;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
 .paraBox {
   border: 1px solid black;
   margin: 20px;
-}
-
-#content {
-  border: 10px solid black;
 }
 
 .navBox {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 20px;
 }
 
 .linkBox {
   display: inline;
+  padding: 20px;
 }
 
 .thumbsBox {
