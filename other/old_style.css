@@ -1,0 +1,130 @@
+.pTop {
+  position: absolute;
+  top: 0px;
+}
+
+.pBot {
+  position: absolute;
+  bottom: 0px;
+}
+
+.pLeft {
+  position: absolute;
+  left: 0px;
+}
+
+.pRight {
+  position: absolute;
+  right: 0px;
+}
+
+#tUp:hover {
+  background-color: #66ff66;
+}
+
+#tWiggle:hover {
+  background-color: #ccffff;
+}
+
+#tDown:hover {
+  background-color: #ff5050;
+}
+
+#tOops:hover {
+  background-color: #ffff66;
+}
+
+#tUp {
+  background-color: #00ff00;
+  border: 5px solid #000;
+  position: absolute;
+}
+
+#tWiggle {
+  background-color: #00ffff;
+  border: 5px solid #000;
+  position: absolute;
+}
+
+#tDown {
+  background-color: #ff0000;
+  border: 5px solid #000;
+  position: absolute;
+}
+
+#tOops {
+  background-color: #ffff00;
+  border: 5px solid #000;
+  position: absolute;
+}
+
+div {
+  background-color: white;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+h2 {
+  color: magenta;
+  text-align: center;
+}
+
+p {
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#content {
+  border: 10px solid black;
+  text-align: center;
+}
+
+#headerOne {
+  display: flex;
+  color: green;
+  font-size: 40px;
+  border: 5px dashed black;
+  background-color: red;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.paraBox {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.navBox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.linkBox {
+  display: inline;
+  padding: 20px;
+}
+
+.thumbsBox {
+  width: 50%;
+  height: 50%;
+  font-size: 69px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutdChild {
+  display: block;
+  border: 0px;
+  position: absolute;
+}

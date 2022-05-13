@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>Hamburger</title>
+  <script type="text/javascript">
+    function openNav() {
+      console.log("i opened teh menu");
+      var menuBox = document.getElementById("hamburgerMenu");
+      menuBox.style.display = 'block';
+    }
+    function closeNav() {
+      console.log("i are teh close menu");
+      var menuBox = document.getElementById("hamburgerMenu");
+      menuBox.style.display = 'none';
+    }
+  </script>
+</head>
+
+<body>
+  <div id="hamburgerIcon" onclick="openNav()">
+    ☰
+  </div>
+  <div id="hamburgerMenu">
+    <div id="closeMenu" onclick="closeNav()">
+      X
+    </div>
+    <a href="index.html">Home</a>
+  </div>
+  <p>I like to eat hamburgers?</p>
+</body>
+
+</html>
