@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <title>VR</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/functions.js" charset="utf-8"></script>
+  <script src="js/functions.js" charset="utf-8">
+
+  </script>
 </head>
 
 <body>
@@ -51,13 +53,14 @@
     </div>
 
     <div class="blogBox">
-      <img src="img/wuhtSmoll.png" alt="" width=10% height=10%>
+      <p id="wuhtClick" onClick="wuhtFunction()">Don't cwick meee!</p>
+      <script type="text/javascript">
+      function wuhtFunction() {
+        document.getElementById("wuhtClick").innerHTML = '<img src="img/wuhtSmoll.png" alt="" width=10% height=10%>';
+      }
+      </script>
     </div>
     <div class="blogBox">
-      <p id="JavaDiv">My first paragraph</p>
-      <script>
-        document.getElementById("JavaDiv").innerHTML = "This was inserted using Java Script";
-      </script>
     </div>
   </div>
 </body>
